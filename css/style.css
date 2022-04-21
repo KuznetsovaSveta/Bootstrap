@@ -92,7 +92,7 @@ header, footer{
 }
 
 /*about*/
-.about, .accordion{
+.about, .accordion, .author{
     background-color: #eee;
 }
 
@@ -157,4 +157,14 @@ header, footer{
 
 .itd_img{
     max-width: 260px;
+}
+
+/*review*/
+.itd_avatar{
+    border-radius: 50%;
+    border: 3px solid var(--color1);
+}
+
+.reviews .line{
+    background-color: var(--color2);
 }
