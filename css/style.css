@@ -3,7 +3,7 @@
     --color2:#52339a;
 }
 
-header, footer, section{
+section{
     padding: 100px 0;
 }
 
@@ -92,7 +92,7 @@ header, footer{
 }
 
 /*about*/
-.about, .accordion, .author{
+.about, .accordion, .author, .buy{
     background-color: #eee;
 }
 
@@ -167,4 +167,18 @@ header, footer{
 
 .reviews .line{
     background-color: var(--color2);
+}
+
+/*footer*/
+footer{
+    padding: 30px 0;
+}
+
+.btn-outline-light{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
