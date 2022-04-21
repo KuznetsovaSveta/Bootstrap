@@ -17,7 +17,7 @@
                     Заголовок сайта
                 </h1>
 
-                <div class="itd_play">
+                <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <div class="itd_triangle">
 
                     </div>
@@ -36,6 +36,21 @@
 <footer id="footer">
 
 </footer>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Заголовок модального окна</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed//CvMxvb2D8Iw' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
